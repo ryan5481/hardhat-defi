@@ -50,7 +50,7 @@ yarn hardhat deploy
 
 ## Running on a testnet or mainnet
 
-# Setup environment variabltes
+### Setup environment variabltes
 
 You'll want to set your `GOERLI_RPC_URL` and `PRIVATE_KEY` as environment variables. You can add them to a `.env` file, similar to what you see in `.env.example.`
 
@@ -60,7 +60,7 @@ You can learn how to export it [here](https://metamask.zendesk.com/hc/en-us/arti
 `Get testnet ETH`
 Head over to [faucets.chain.link](https://faucets.chain.link/) and get some tesnet ETH. You should see the ETH show up in your metamask.
 
-Run
+### Run
 
 ```
 yarn hardhat run scripts/aaveBorrow.js --network goerli
